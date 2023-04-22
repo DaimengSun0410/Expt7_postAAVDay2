@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expt7 AAV Infection 4/21/23</title>
+    <link rel="stylesheet" href="expt7.css">
+    <script src="expt7.js"></script>
+</head>
+<body>
+    <h1>Expt7 postAAV Day2, postDOX Day1, 04/21/23</h1>
+    <p>GFP setting: Exposure: 260, Intensity: 25, gain: 40, contrast: 0</p>
+
+    <div class="dropdown">
+        <select id="condition" onchange="showCondition()" style="width: 10%">
+            <option value="all">view all</option>
+            <option value="dox0">dox 0ug/ml</option>
+            <option value="dox0.01">dox 0.01ug/ml</option>
+            <option value="dox0.1">dox 0.1ug/ml</option>
+            <option value="dox1">dox 1ug/ml</option>
+            <option value="dox5">dox 5ug/ml</option>
+        </select>
+    </div>
+
+    <div><br></div>
+
+    <div class="images">
+        <div id="dox0">
+            <img src="expt7_postaav1_042123_dox0_bf.jpg" width="400" height="auto">
+            <img src="expt7_postaav1_042123_dox0_gfp.jpg" width="400" height="auto">
+            <img src="expt7_postaav2_042123_dox0_merge.jpg" width="400" height="auto">
+        </div>
+
+        <div id="dox001">
+            <img src="expt7_postaav1_042123_dox1e-2_bf.jpg" width="400" height="auto">
+            <img src="expt7_postaav1_042123_dox1e-2_gfp.jpg" width="400" height="auto">
+            <img src="expt7_postaav2_042123_dox1e-2_merge.jpg" width="400" height="auto">
+        </div>
+
+        <div id="dox01">
+            <img src="expt7_postaav1_042123_dox1e-1_bf.jpg" width="400" height="auto">
+            <img src="expt7_postaav1_042123_dox1e-1_gfp.jpg" width="400" height="auto">
+            <img src="expt7_postaav2_042123_dox1e-1_merge.jpg" width="400" height="auto">
+        </div>
+
+        <div id="dox1">
+            <img src="expt7_postaav1_042123_dox1_bf.jpg" width="400" height="auto">
+            <img src="expt7_postaav1_042123_dox1_gfp.jpg" width="400" height="auto">
+            <img src="expt7_postaav2_042123_dox1_merge.jpg" width="400" height="auto">
+        </div>
+
+        <div id="dox5">
+            <img src="expt7_postaav1_042123_dox5_bf.jpg" width="400" height="auto">
+            <img src="expt7_postaav1_042123_dox5_gfp.jpg" width="400" height="auto">
+            <img src="expt7_postaav2_042123_dox5_merge.jpg" width="400" height="auto">
+        </div>
+    </div>
+
+    
+</body>
+</html>
